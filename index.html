@@ -456,16 +456,20 @@
         </div>
 
         <!-- Подписка на рассылку-->
-        <div class="subscription">
-          <p class="footer-subscription-titel">Подпишитесь на рассылку</p>
-          <form class="footer-subscription-form">
-            <input class="footer-subscription" type="email" name="mail" placeholder="E-mail" />
-            <button class="footer-subscription-btn" type="submit">
-              Подписаться
-              <svg class="footer-btn-svg" widht="24" height="24">
-                <use href="./imeges/icon/icons.svg#icon-send" widht="24" height="24"></use>
-              </svg>
-            </button>
+        <div class="sub">
+          <p class="footer-sub-titel">Подпишитесь на рассылку</p>
+          <form class="footer-sub-form">
+            <div class="sub-grup">
+              <label class="footer-sub-grup">
+                <input class="footer-sub" type="email" name="mail" placeholder="E-mail" />
+              </label>
+              <button class="footer-sub-btn" type="submit">
+                Подписаться
+                <svg class="footer-btn-svg" widht="24" height="24">
+                  <use href="./imeges/icon/icons.svg#icon-send" widht="24" height="24"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
@@ -479,6 +483,30 @@
             <use width="11" height="11" href="./imeges/icon/icons.svg#icon-vector"></use>
           </svg>
         </button>
+        <div class="modal-form">
+          <p>Оставьте свои данные, мы вам перезвоним</p>
+          <form action="">
+            <label for="name">Имя</label>
+            <input type="text" name="name" id="name" />
+
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" id="tel" />
+
+            <label for="mail">Почта</label>
+            <input type="email" name="mail" id="mail" />
+
+            <label for="comment">Коментарий</label>
+            <textarea
+              name="comment"
+              id="comment"
+              cols=""
+              rows=""
+              placeholder="Введите текст"
+            ></textarea>
+
+            <button type="submit">Отправить</button>
+          </form>
+        </div>
       </div>
     </div>
 
