@@ -877,6 +877,51 @@ color: var(--main-background-color);
   height: 11px;
 }
 
+.modal-titel{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    color: var(--titel-text-color);
+}
+
+.form-list {
+width: 448px;
+outline: 1px solid tomato;
+margin-left: auto;
+margin-right: auto;
+}
+.form-faild {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.form-faild label{
+padding-top: 4px;
+}
+
+.form-faild input{
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--titel-text-color);
+  border-radius: 4px;
+}
+
+.comment{
+  padding: 12px;
+border: 1px solid var(--titel-text-color);
+  border-radius: 4px;
+}
+
+
+
 /* 
 .backdrop{
   position: fixed;

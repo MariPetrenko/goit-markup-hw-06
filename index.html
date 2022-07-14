@@ -484,25 +484,34 @@
           </svg>
         </button>
         <div class="modal-form">
-          <p>Оставьте свои данные, мы вам перезвоним</p>
-          <form action="">
-            <label for="name">Имя</label>
-            <input type="text" name="name" id="name" />
+          <p class="modal-titel">Оставьте свои данные, мы вам перезвоним</p>
+          <form class="form-list" action="">
+            <div class="form-faild">
+              <label for="name">Имя</label>
+              <input type="text" name="name" id="name" />
+            </div>
 
-            <label for="tel">Телефон</label>
-            <input type="tel" name="tel" id="tel" />
+            <div class="form-faild">
+              <label for="tel">Телефон</label>
+              <input type="tel" name="tel" id="tel" />
+            </div>
 
-            <label for="mail">Почта</label>
-            <input type="email" name="mail" id="mail" />
+            <div class="form-faild">
+              <label for="mail">Почта</label>
+              <input type="email" name="mail" id="mail" />
+            </div>
 
-            <label for="comment">Коментарий</label>
-            <textarea
-              name="comment"
-              id="comment"
-              cols=""
-              rows=""
-              placeholder="Введите текст"
-            ></textarea>
+            <div class="form-faild">
+              <label for="comment">Коментарий</label>
+              <textarea
+                class="comment"
+                name="comment"
+                id="comment"
+                cols=""
+                rows=""
+                placeholder="Введите текст"
+              ></textarea>
+            </div>
 
             <button type="submit">Отправить</button>
           </form>
